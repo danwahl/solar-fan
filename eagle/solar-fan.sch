@@ -7527,10 +7527,18 @@ LilyPad 1206- DIO-09955</description>
 </class>
 </classes>
 <parts>
-<part name="U1" library="SparkFun-PowerIC" deviceset="LT3652" device="" value="LT3652"/>
-<part name="D1" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-MBRA140" value="MBRS140"/>
-<part name="R1" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="499k"/>
-<part name="R2" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="100k"/>
+<part name="U1" library="SparkFun-PowerIC" deviceset="LT3652" device="" value="LT3652">
+<attribute name="PN" value="LT3652EMSE#PBF-ND"/>
+</part>
+<part name="D1" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-MBRA140" value="MBRS140">
+<attribute name="PN" value="MBRS140FSCT-ND"/>
+</part>
+<part name="R1" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="499k">
+<attribute name="PN" value="P499KHCT-ND"/>
+</part>
+<part name="R2" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="100k">
+<attribute name="PN" value="P100KHCT-ND"/>
+</part>
 <part name="C1" library="SparkFun-Passives" deviceset="CAP" device="1210" value="10uf"/>
 <part name="C2" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="4.7uf"/>
 <part name="GND1" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
@@ -7542,64 +7550,116 @@ LilyPad 1206- DIO-09955</description>
 <part name="L1" library="SparkFun-Passives" deviceset="INDUCTOR" device="RLB0912" value="22uH"/>
 <part name="C4" library="SparkFun-Passives" deviceset="CAP" device="1210" value="10uf"/>
 <part name="R3" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="309k"/>
-<part name="R4" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="100k"/>
-<part name="R5" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="174k"/>
+<part name="R4" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="100k">
+<attribute name="PN" value="P100KHCT-ND"/>
+</part>
+<part name="R5" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="174k">
+<attribute name="PN" value="P174KHCT-ND"/>
+</part>
 <part name="D3" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-MBRA140" value="MBRS340"/>
 <part name="R6" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="0.1"/>
 <part name="C5" library="SparkFun-Passives" deviceset="CAP_POL" device="PTH1" value="100uf"/>
 <part name="GND4" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND5" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY2" library="SparkFun-Aesthetics" deviceset="V_BATT" device=""/>
-<part name="J1" library="SparkFun-Connectors" deviceset="POWER_JACK" device="PTH"/>
+<part name="J1" library="SparkFun-Connectors" deviceset="POWER_JACK" device="PTH">
+<attribute name="PN" value="CP-202A-ND"/>
+</part>
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="J2" library="SparkFun-Connectors" deviceset="USB" device="-A-S"/>
-<part name="U2" library="attiny85" deviceset="ATTINY85" device=""/>
+<part name="U2" library="attiny85" deviceset="ATTINY85" device="">
+<attribute name="PN" value="ATTINY85-20PU-ND"/>
+</part>
 <part name="J3" library="SparkFun-Connectors" deviceset="M03" device="PTH" value="7805"/>
 <part name="SUPPLY3" library="SparkFun-Aesthetics" deviceset="V_BATT" device=""/>
 <part name="SUPPLY4" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="GND7" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY5" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="GND8" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="R7" library="SparkFun-Electromechanical" deviceset="TRIMPOT" device="-PTH-KNOB" value="TSR-3386"/>
-<part name="R8" library="SparkFun-Electromechanical" deviceset="TRIMPOT" device="-PTH-KNOB" value="TSR-3386"/>
+<part name="R7" library="SparkFun-Electromechanical" deviceset="TRIMPOT" device="-PTH-KNOB" value="TSR-3386">
+<attribute name="PN" value="3386U-1-103LF-ND"/>
+</part>
+<part name="R8" library="SparkFun-Electromechanical" deviceset="TRIMPOT" device="-PTH-KNOB" value="TSR-3386">
+<attribute name="PN" value="3386U-1-103LF-ND"/>
+</part>
 <part name="SUPPLY6" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="GND9" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="R9" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="309k"/>
-<part name="R10" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="100k"/>
+<part name="R9" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="309k">
+<attribute name="PN" value="P309KHCT-ND"/>
+</part>
+<part name="R10" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="100k">
+<attribute name="PN" value="P100KHCT-ND"/>
+</part>
 <part name="SUPPLY7" library="SparkFun-Aesthetics" deviceset="V_BATT" device=""/>
 <part name="GND10" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="D4" library="SparkFun-LED" deviceset="LED-WHITE" device="0603"/>
-<part name="D5" library="SparkFun-LED" deviceset="LED-WHITE" device="0603"/>
-<part name="D6" library="SparkFun-LED" deviceset="LED-WHITE" device="0603"/>
-<part name="D7" library="SparkFun-LED" deviceset="LED-WHITE" device="0603"/>
-<part name="D8" library="SparkFun-LED" deviceset="LED-WHITE" device="0603"/>
-<part name="D9" library="SparkFun-LED" deviceset="LED-WHITE" device="0603"/>
-<part name="Q1" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_NPN" device="P2N2222A"/>
-<part name="R11" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="100"/>
-<part name="R12" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="100"/>
-<part name="Q2" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_NPN" device="P2N2222A"/>
+<part name="D4" library="SparkFun-LED" deviceset="LED-WHITE" device="0603">
+<attribute name="PN" value="516-2236-1-ND"/>
+</part>
+<part name="D5" library="SparkFun-LED" deviceset="LED-WHITE" device="0603">
+<attribute name="PN" value="516-2236-1-ND"/>
+</part>
+<part name="D6" library="SparkFun-LED" deviceset="LED-WHITE" device="0603">
+<attribute name="PN" value="516-2236-1-ND"/>
+</part>
+<part name="D7" library="SparkFun-LED" deviceset="LED-WHITE" device="0603">
+<attribute name="PN" value="516-2236-1-ND"/>
+</part>
+<part name="D8" library="SparkFun-LED" deviceset="LED-WHITE" device="0603">
+<attribute name="PN" value="516-2236-1-ND"/>
+</part>
+<part name="D9" library="SparkFun-LED" deviceset="LED-WHITE" device="0603">
+<attribute name="PN" value="516-2236-1-ND"/>
+</part>
+<part name="Q1" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_NPN" device="P2N2222A">
+<attribute name="PN" value="PN2222AFS-ND"/>
+</part>
+<part name="R11" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="100">
+<attribute name="PN" value="P100HCT-ND"/>
+</part>
+<part name="R12" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="100">
+<attribute name="PN" value="P100HCT-ND"/>
+</part>
+<part name="Q2" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_NPN" device="P2N2222A">
+<attribute name="PN" value="PN2222AFS-ND"/>
+</part>
 <part name="SUPPLY8" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
 <part name="GND11" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="J4" library="SparkFun-Connectors" deviceset="M02" device="PTH"/>
 <part name="SUPPLY9" library="SparkFun-Aesthetics" deviceset="V_BATT" device=""/>
-<part name="Q3" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_NPN" device="P2N2222A"/>
+<part name="Q3" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_NPN" device="P2N2222A">
+<attribute name="PN" value="PN2222AFS-ND"/>
+</part>
 <part name="GND12" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="R13" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="100k"/>
-<part name="R14" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="100k"/>
-<part name="R15" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="100k"/>
+<part name="R13" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="100k">
+<attribute name="PN" value="P100KHCT-ND"/>
+</part>
+<part name="R14" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="100k">
+<attribute name="PN" value="P100KHCT-ND"/>
+</part>
+<part name="R15" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="100k">
+<attribute name="PN" value="P100KHCT-ND"/>
+</part>
 <part name="J5" library="SparkFun-Connectors" deviceset="M02" device="JST-PTH-2"/>
 <part name="SUPPLY10" library="SparkFun-Aesthetics" deviceset="V_BATT" device=""/>
 <part name="GND13" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
+<part name="J4" library="SparkFun-Connectors" deviceset="M02" device="POLAR"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="U1" gate="G$1" x="96.52" y="78.74"/>
-<instance part="D1" gate="G$1" x="63.5" y="106.68"/>
-<instance part="R1" gate="G$1" x="58.42" y="99.06" rot="R90"/>
-<instance part="R2" gate="G$1" x="58.42" y="83.82" rot="R90"/>
+<instance part="U1" gate="G$1" x="96.52" y="78.74">
+<attribute name="PN" x="96.52" y="78.74" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D1" gate="G$1" x="63.5" y="106.68">
+<attribute name="PN" x="63.5" y="106.68" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R1" gate="G$1" x="58.42" y="99.06" rot="R90">
+<attribute name="PN" x="58.42" y="99.06" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="R2" gate="G$1" x="58.42" y="83.82" rot="R90">
+<attribute name="PN" x="58.42" y="83.82" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
 <instance part="C1" gate="G$1" x="78.74" y="88.9"/>
 <instance part="C2" gate="G$1" x="86.36" y="81.28" rot="R90"/>
 <instance part="GND1" gate="1" x="58.42" y="71.12"/>
@@ -7614,8 +7674,12 @@ LilyPad 1206- DIO-09955</description>
 <instance part="L1" gate="G$1" x="160.02" y="104.14"/>
 <instance part="C4" gate="G$1" x="165.1" y="81.28"/>
 <instance part="R3" gate="G$1" x="147.32" y="83.82" rot="R90"/>
-<instance part="R4" gate="G$1" x="154.94" y="76.2"/>
-<instance part="R5" gate="G$1" x="134.62" y="81.28"/>
+<instance part="R4" gate="G$1" x="154.94" y="76.2">
+<attribute name="PN" x="154.94" y="76.2" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R5" gate="G$1" x="134.62" y="81.28">
+<attribute name="PN" x="134.62" y="81.28" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="D3" gate="G$1" x="170.18" y="114.3" rot="R180"/>
 <instance part="R6" gate="G$1" x="167.64" y="93.98" smashed="yes" rot="R180">
 <attribute name="NAME" x="166.37" y="97.5614" size="1.778" layer="95" rot="R180"/>
@@ -7625,46 +7689,86 @@ LilyPad 1206- DIO-09955</description>
 <instance part="GND4" gate="1" x="175.26" y="109.22"/>
 <instance part="GND5" gate="1" x="175.26" y="71.12"/>
 <instance part="SUPPLY2" gate="G$1" x="175.26" y="99.06"/>
-<instance part="J1" gate="G$1" x="45.72" y="99.06"/>
+<instance part="J1" gate="G$1" x="45.72" y="99.06">
+<attribute name="PN" x="45.72" y="99.06" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND6" gate="1" x="50.8" y="96.52"/>
 <instance part="J2" gate="G$1" x="139.7" y="185.42"/>
-<instance part="U2" gate="G$1" x="109.22" y="139.7"/>
+<instance part="U2" gate="G$1" x="109.22" y="139.7">
+<attribute name="PN" x="109.22" y="139.7" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="J3" gate="J$1" x="35.56" y="157.48"/>
 <instance part="SUPPLY3" gate="G$1" x="53.34" y="162.56"/>
 <instance part="SUPPLY4" gate="G$1" x="48.26" y="162.56"/>
 <instance part="GND7" gate="1" x="45.72" y="149.86"/>
 <instance part="SUPPLY5" gate="G$1" x="124.46" y="149.86"/>
 <instance part="GND8" gate="1" x="93.98" y="127"/>
-<instance part="R7" gate="R?" x="40.64" y="134.62"/>
-<instance part="R8" gate="R?" x="40.64" y="121.92"/>
+<instance part="R7" gate="R?" x="40.64" y="134.62">
+<attribute name="PN" x="40.64" y="134.62" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R8" gate="R?" x="40.64" y="121.92">
+<attribute name="PN" x="40.64" y="121.92" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY6" gate="G$1" x="33.02" y="137.16"/>
 <instance part="GND9" gate="1" x="48.26" y="116.84"/>
-<instance part="R9" gate="G$1" x="63.5" y="154.94"/>
-<instance part="R10" gate="G$1" x="83.82" y="154.94"/>
+<instance part="R9" gate="G$1" x="63.5" y="154.94">
+<attribute name="PN" x="63.5" y="154.94" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R10" gate="G$1" x="83.82" y="154.94">
+<attribute name="PN" x="83.82" y="154.94" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY7" gate="G$1" x="162.56" y="193.04"/>
 <instance part="GND10" gate="1" x="162.56" y="127"/>
-<instance part="D4" gate="G$1" x="157.48" y="172.72"/>
-<instance part="D5" gate="G$1" x="157.48" y="162.56"/>
-<instance part="D6" gate="G$1" x="157.48" y="152.4"/>
-<instance part="D7" gate="G$1" x="167.64" y="172.72"/>
-<instance part="D8" gate="G$1" x="167.64" y="162.56"/>
-<instance part="D9" gate="G$1" x="167.64" y="152.4"/>
-<instance part="Q1" gate="G$1" x="160.02" y="137.16"/>
-<instance part="R11" gate="G$1" x="157.48" y="182.88" rot="R90"/>
-<instance part="R12" gate="G$1" x="167.64" y="182.88" rot="R90"/>
-<instance part="Q2" gate="G$1" x="132.08" y="177.8"/>
+<instance part="D4" gate="G$1" x="157.48" y="172.72">
+<attribute name="PN" x="157.48" y="172.72" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D5" gate="G$1" x="157.48" y="162.56">
+<attribute name="PN" x="157.48" y="162.56" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D6" gate="G$1" x="157.48" y="152.4">
+<attribute name="PN" x="157.48" y="152.4" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D7" gate="G$1" x="167.64" y="172.72">
+<attribute name="PN" x="167.64" y="172.72" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D8" gate="G$1" x="167.64" y="162.56">
+<attribute name="PN" x="167.64" y="162.56" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="D9" gate="G$1" x="167.64" y="152.4">
+<attribute name="PN" x="167.64" y="152.4" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="Q1" gate="G$1" x="160.02" y="137.16">
+<attribute name="PN" x="160.02" y="137.16" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R11" gate="G$1" x="157.48" y="182.88" rot="R90">
+<attribute name="PN" x="157.48" y="182.88" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="R12" gate="G$1" x="167.64" y="182.88" rot="R90">
+<attribute name="PN" x="167.64" y="182.88" size="1.778" layer="96" rot="R90" display="off"/>
+</instance>
+<instance part="Q2" gate="G$1" x="132.08" y="177.8">
+<attribute name="PN" x="132.08" y="177.8" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SUPPLY8" gate="G$1" x="132.08" y="193.04"/>
 <instance part="GND11" gate="1" x="134.62" y="167.64"/>
-<instance part="J4" gate="G$1" x="91.44" y="187.96" rot="R180"/>
 <instance part="SUPPLY9" gate="G$1" x="81.28" y="190.5"/>
-<instance part="Q3" gate="G$1" x="78.74" y="177.8"/>
+<instance part="Q3" gate="G$1" x="78.74" y="177.8">
+<attribute name="PN" x="78.74" y="177.8" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND12" gate="1" x="81.28" y="167.64"/>
-<instance part="R13" gate="G$1" x="142.24" y="137.16"/>
-<instance part="R14" gate="G$1" x="121.92" y="177.8"/>
-<instance part="R15" gate="G$1" x="68.58" y="177.8"/>
+<instance part="R13" gate="G$1" x="142.24" y="137.16">
+<attribute name="PN" x="142.24" y="137.16" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R14" gate="G$1" x="121.92" y="177.8">
+<attribute name="PN" x="121.92" y="177.8" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R15" gate="G$1" x="68.58" y="177.8">
+<attribute name="PN" x="68.58" y="177.8" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="J5" gate="G$1" x="81.28" y="127" rot="R180"/>
 <instance part="SUPPLY10" gate="G$1" x="71.12" y="129.54"/>
 <instance part="GND13" gate="1" x="71.12" y="119.38"/>
+<instance part="J4" gate="G$1" x="91.44" y="187.96" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -7919,8 +8023,8 @@ LilyPad 1206- DIO-09955</description>
 <segment>
 <pinref part="SUPPLY9" gate="G$1" pin="V_BATT"/>
 <wire x1="81.28" y1="190.5" x2="81.28" y2="187.96" width="0.1524" layer="91"/>
-<pinref part="J4" gate="G$1" pin="1"/>
 <wire x1="81.28" y1="187.96" x2="83.82" y2="187.96" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <pinref part="SUPPLY10" gate="G$1" pin="V_BATT"/>
@@ -8072,10 +8176,10 @@ LilyPad 1206- DIO-09955</description>
 </net>
 <net name="N$22" class="0">
 <segment>
-<pinref part="J4" gate="G$1" pin="2"/>
 <wire x1="83.82" y1="185.42" x2="81.28" y2="185.42" width="0.1524" layer="91"/>
 <pinref part="Q3" gate="G$1" pin="C"/>
 <wire x1="81.28" y1="185.42" x2="81.28" y2="182.88" width="0.1524" layer="91"/>
+<pinref part="J4" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="LED_OUT" class="0">
