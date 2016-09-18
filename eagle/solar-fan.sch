@@ -11371,7 +11371,7 @@ LilyPad 1206- DIO-09955</description>
 <attribute name="PN" value="P100KHCT-ND"/>
 </part>
 <part name="C1" library="SparkFun-Passives" deviceset="CAP" device="1210" value="10uf">
-<attribute name="PN" value="490-1880-1-ND"/>
+<attribute name="PN" value="490-6530-1-ND"/>
 </part>
 <part name="C2" library="SparkFun-Passives" deviceset="CAP" device="0603-CAP" value="4.7uf">
 <attribute name="PN" value="490-10481-1-ND"/>
@@ -11390,7 +11390,7 @@ LilyPad 1206- DIO-09955</description>
 <attribute name="PN" value="RLB0912-220KL-ND"/>
 </part>
 <part name="C4" library="SparkFun-Passives" deviceset="CAP" device="1210" value="10uf">
-<attribute name="PN" value="490-1880-1-ND"/>
+<attribute name="PN" value="490-6530-1-ND"/>
 </part>
 <part name="R3" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="309k">
 <attribute name="PN" value="P309KHCT-ND"/>

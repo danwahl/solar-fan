@@ -9,7 +9,7 @@
 "2";"100";"RESISTOR0603-RES";"0603-RES";"R11, R12";"Resistor";"P100HCT-ND";"";"";"";
 "6";"100k";"RESISTOR0603-RES";"0603-RES";"R2, R4, R10, R13, R14, R15";"Resistor";"P100KHCT-ND";"";"";"";
 "1";"100uf";"CAP_POLPTH1";"CPOL-RADIAL-100UF-25V";"C5";"Capacitor Polarized";"399-6650-1-ND";"";"";"";
-"2";"10uf";"CAP1210";"1210";"C1, C4";"Capacitor";"490-1880-1-ND";"";"";"";
+"2";"10uf";"CAP1210";"1210";"C1, C4";"Capacitor";"490-6530-1-ND";"";"";"";
 "1";"174k";"RESISTOR0603-RES";"0603-RES";"R5";"Resistor";"P174KHCT-ND";"";"";"";
 "1";"1uf";"CAP0603-CAP";"0603-CAP";"C3";"Capacitor";"490-1536-1-ND";"";"";"";
 "1";"22uH";"INDUCTORRLB0912";"RLB0912";"L1";"Inductors";"RLB0912-220KL-ND";"";"";"";
