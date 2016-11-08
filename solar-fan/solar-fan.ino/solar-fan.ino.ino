@@ -31,7 +31,7 @@ ISR(WDT_vect) {
  * setup
  **************************************************************************/
 void setup() {
-  // set tmr0 pwm frequency to 1e6/2^8/psc
+  // set tmr0 pwm frequency to 8e6/2^8/psc
   TCCR0B &= ~(_BV(CS01) | _BV(CS02));
   TCCR0B |= _BV(CS00);
 
@@ -101,7 +101,7 @@ void loop() {
         digitalWrite(USB_OUT_PIN, usb_out);
 
         // idle for a bit
-        sleep_system(SLEEP_MODE_IDLE, WDTO_4S);
+        delay(100);
       }
       break;
     case (LOWBAT):
@@ -110,7 +110,7 @@ void loop() {
         state = RUN;
 
         // idle for a bit
-        sleep_system(SLEEP_MODE_IDLE, WDTO_15MS);
+        delay(100);
       }
       // otherwise sleep again
       else sleep_system(SLEEP_MODE_PWR_DOWN, WDTO_8S);
@@ -143,8 +143,8 @@ void sleep_system(unsigned mode, unsigned wdto) {
   sleep_disable();
 
   // enable peripherals
-  power_timer1_enable();
   power_adc_enable();
+  power_timer1_enable();
 }
 
 /***************************************************************************
