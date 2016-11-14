@@ -35,6 +35,9 @@ void setup() {
   TCCR0B &= ~(_BV(CS01) | _BV(CS02));
   TCCR0B |= _BV(CS00);
 
+  // disable tim0 interrupts
+  TIMSK &= ~(_BV(OCIE0A) | _BV(OCIE0B) | _BV(TOIE0));
+
   // usb out pin setup
   pinMode(USB_OUT_PIN, OUTPUT);
 
@@ -101,7 +104,8 @@ void loop() {
         digitalWrite(USB_OUT_PIN, usb_out);
 
         // idle for a bit
-        delay(100);
+        //delay(100);
+        sleep_system(SLEEP_MODE_IDLE, WDTO_1S);
       }
       break;
     case (LOWBAT):
@@ -110,7 +114,8 @@ void loop() {
         state = RUN;
 
         // idle for a bit
-        delay(100);
+        //delay(100);
+        sleep_system(SLEEP_MODE_IDLE, WDTO_1S);
       }
       // otherwise sleep again
       else sleep_system(SLEEP_MODE_PWR_DOWN, WDTO_8S);
