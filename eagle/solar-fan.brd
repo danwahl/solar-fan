@@ -689,8 +689,8 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="PN" value="MBRS140T3GOSCT-ND" x="2.54" y="10.16" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="0.889" y="7.874" size="0.4064" layer="25" font="vector" rot="R90"/>
 </element>
-<element name="R1" library="SparkFun-Passives" package="0603-RES" value="430k" x="6.985" y="10.16" smashed="yes" rot="R180">
-<attribute name="PN" value="P430KGCT-ND" x="6.985" y="10.16" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="R1" library="SparkFun-Passives" package="0603-RES" value="560K" x="6.985" y="10.16" smashed="yes" rot="R180">
+<attribute name="PN" value="P560KGCT-ND" x="6.985" y="10.16" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="7.874" y="9.398" size="0.4064" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="8.001" y="11.303" size="0.4064" layer="27" font="vector" rot="R180"/>
 </element>
@@ -760,7 +760,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="PN2" value="AE9986-ND" x="67.31" y="9.525" size="1.778" layer="27" display="off"/>
 </element>
 <element name="+5V" library="SparkFun-Connectors" package="1X03" value="7805" x="38.1" y="18.415" smashed="yes" rot="R270">
-<attribute name="PN2" value="811-2196-5-ND" x="38.1" y="18.415" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PN2" value="LM7805CT-ND" x="38.1" y="18.415" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="36.1188" y="19.7612" size="0.6096" layer="25" font="vector" rot="R270"/>
 <attribute name="PN" value="811-2196-5-ND" x="38.1" y="18.415" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
@@ -899,11 +899,13 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="STOREFRONT_ID" value="PRT-08432" x="8.255" y="17.78" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="10.795" y="13.335" size="0.6096" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="9.525" y="16.51" size="0.4064" layer="27" rot="R180"/>
+<attribute name="PN" value="277-1667-ND" x="8.255" y="17.78" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="BAT" library="SparkFun-Connectors" package="SCREWTERMINAL-5MM-2" value="" x="18.25498125" y="17.78" smashed="yes" rot="R180">
 <attribute name="STOREFRONT_ID" value="PRT-08432" x="18.25498125" y="17.78" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="20.79498125" y="13.335" size="0.6096" layer="25" font="vector" rot="R180"/>
 <attribute name="VALUE" x="19.52498125" y="16.51" size="0.4064" layer="27" rot="R180"/>
+<attribute name="PN" value="277-1667-ND" x="18.25498125" y="17.78" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="D11" library="SparkFun-LED" package="LED-0603" value="" x="11.43" y="8.255" rot="R270">
 <attribute name="PN" value="160-1436-1-ND" x="11.43" y="8.255" size="1.778" layer="27" rot="R270" display="off"/>

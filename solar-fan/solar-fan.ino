@@ -6,8 +6,8 @@
 #define VBAT_PIN      A0              // also reset pin
 #define VBAT_SLOPE    3.24889         // x/1e3 = (y - x)/2.2e3 + (5 - x)/45e3
 #define VBAT_OFFSET   -0.244444
-#define VBAT_MIN      10.5f
-#define VBAT_NOM      12.0f           // should be greater than VBAT_MIN
+#define VBAT_MIN      10.8f
+#define VBAT_NOM      11.8f           // should be greater than VBAT_MIN
 #define FAN_IN_PIN    A3
 #define FAN_OUT_PIN   0
 #define LED_IN_PIN    A2

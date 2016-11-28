@@ -5541,8 +5541,8 @@ LilyPad 1206- DIO-09955</description>
 <part name="D1" library="SparkFun-DiscreteSemi" deviceset="DIODE-SCHOTTKY" device="-MBRA140" value="MBRS140">
 <attribute name="PN" value="MBRS140T3GOSCT-ND"/>
 </part>
-<part name="R1" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="430k">
-<attribute name="PN" value="P430KGCT-ND"/>
+<part name="R1" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="560K">
+<attribute name="PN" value="P560KGCT-ND"/>
 </part>
 <part name="R2" library="SparkFun-Passives" deviceset="RESISTOR" device="0603-RES" value="100k">
 <attribute name="PN" value="P100KHCT-ND"/>
@@ -5592,7 +5592,7 @@ LilyPad 1206- DIO-09955</description>
 </part>
 <part name="+5V" library="SparkFun-Connectors" deviceset="M03" device="PTH" value="7805">
 <attribute name="PN" value="811-2196-5-ND"/>
-<attribute name="PN2" value="811-2196-5-ND"/>
+<attribute name="PN2" value="LM7805CT-ND"/>
 </part>
 <part name="SUPPLY3" library="SparkFun-Aesthetics" deviceset="V_BATT" device=""/>
 <part name="SUPPLY4" library="SparkFun-Aesthetics" deviceset="5V" device=""/>
@@ -5680,8 +5680,12 @@ LilyPad 1206- DIO-09955</description>
 <part name="D10" library="SparkFun-DiscreteSemi" deviceset="BZX84C6V2L" device="">
 <attribute name="PN" value="SZBZX84C6V2LT1GOSCT-ND"/>
 </part>
-<part name="SUN" library="SparkFun-Connectors" deviceset="M02" device="5MM"/>
-<part name="BAT" library="SparkFun-Connectors" deviceset="M02" device="5MM"/>
+<part name="SUN" library="SparkFun-Connectors" deviceset="M02" device="5MM">
+<attribute name="PN" value="277-1667-ND"/>
+</part>
+<part name="BAT" library="SparkFun-Connectors" deviceset="M02" device="5MM">
+<attribute name="PN" value="277-1667-ND"/>
+</part>
 <part name="GND3" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="GND6" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="SUPPLY10" library="SparkFun-Aesthetics" deviceset="V_BATT" device=""/>
@@ -5853,8 +5857,12 @@ LilyPad 1206- DIO-09955</description>
 <instance part="D10" gate="G$1" x="119.38" y="38.1">
 <attribute name="PN" x="119.38" y="38.1" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="SUN" gate="G$1" x="12.7" y="40.64"/>
-<instance part="BAT" gate="G$1" x="0" y="58.42"/>
+<instance part="SUN" gate="G$1" x="12.7" y="40.64">
+<attribute name="PN" x="12.7" y="40.64" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="BAT" gate="G$1" x="0" y="58.42">
+<attribute name="PN" x="0" y="58.42" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND3" gate="1" x="20.32" y="53.34"/>
 <instance part="GND6" gate="1" x="22.86" y="35.56"/>
 <instance part="SUPPLY10" gate="G$1" x="25.4" y="71.12"/>
